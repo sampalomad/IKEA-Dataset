@@ -21,6 +21,12 @@ The below statistics is calculated with unprocessed data:
 | English-French | English  | 239822 | 3321                   | 6                     | 334                   | 72.213791             | 47.2512623                        | 6442            |
 |                | French   | 275223 | 3321                   | 6                     | 469                   | 82.8735321            | 54.7219488                        | 7575            |
 
+
+## Characteristics:
+..*	Because all data samples are the description of different products from ikea.com or underamour.com, a data sample might contain more than one sentences. 
+..*	A data sample is not a strict description of the corresponding product image. A description might contain information that cannot be showed in image. for example, a description for an Underamour product can contains the sentence “Don’t wash it with hot water”.
+..*	A data sample in German/French might be less complete with its corresponding English data sample because some part of the descriptions of certain products are not available in non-English regions.
+
 - `train.*` : 29K sentences
 - `val.*` : 1014 sentences
 - `test2016.*` : 1000 sentences
