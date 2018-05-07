@@ -7,12 +7,11 @@ CPNMT is a multilingual-multimodal dataset. It contains two language pairs: Engl
 Besides the raw, unprocessed version of all the data samples, there are two other versions of the data. the `IKEA/data.en.*/data.norm.tok.lc` folder contains normalized, tokenized, converted to lowercase (processed exclusively in such order) data. The `IKEA/data.en.*/data.norm.tok.lc.bpe` folder contains normalized, tokenized, converted to lowercase, byte-pair encoding (processed exclusively in such order) data. 
 
 ## Example:
-The below statistics is calculated with unprocessed data: 
-
 ![sample](./sample.png?raw=true "example")
 
 
 ## Statistics:
+The below statistics is calculated with unprocessed data: 
 
 | Language pair  | Language | Tokens | Minimum sample length | Maximum sample length | Average sample length | Standard derivation sample length | Vocabulary size |
 |----------------|----------|--------|-----------------------|-----------------------|-----------------------|-----------------------------------|-----------------|
