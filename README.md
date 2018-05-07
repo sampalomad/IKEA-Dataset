@@ -27,6 +27,14 @@ The below statistics is calculated with unprocessed data:
 2.	A data sample is not a strict description of the corresponding product image. A description might contain information that cannot be showed in image. for example, a description for an Underamour product can contains the sentence “Don’t wash it with hot water”.
 3.	A data sample in German/French might be less complete with its corresponding English data sample because some part of the descriptions of certain products are not available in non-English regions.
 
+
+## Usages:
+It can be used for text-only neural machine translation project and multimodal machine translation project.
+To download the dataset: ```$ git clone https://github.com/sampalomad/CPNMT.git```
+
+
+
+
 - `train.*` : 29K sentences
 - `val.*` : 1014 sentences
 - `test2016.*` : 1000 sentences
