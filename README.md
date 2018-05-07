@@ -38,10 +38,10 @@ The below statistics is calculated with unprocessed data:
 - `IKEA/data.en.*/data.norm.tok.lc.bpe`: normalized, tokenized, lowercase-converted, byte-pair-encoded (10000) data.
 
 ### Data Files:
-- `vocab.*`: language-corresponded vocabulary file extract from `*.norm.tok.lc.10000bpe.*`.
 - `train.*`: 3K samples.
 - `test.*`: 300 samples.
 - `val.*`: 300 samples.
+- `vocab.*`: language-corresponded vocabulary file extract from `*.norm.tok.lc.10000bpe.*`.
 - `*.norm.tok.lc.10000bpe_ims.npy`: corresponded image matrix for `train.*`, `test.*`, `val.*`, each image is stored in a vector of size 2048. 
 
 
