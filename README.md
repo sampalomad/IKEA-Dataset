@@ -8,8 +8,7 @@ Besides the raw, unprocessed version of all the data samples, there are two othe
 
 ## Example
 The below statistics is calculated with unprocessed data: 
-
-
+![sample](./sample.png?raw=true "example")
 
 
 - `train.*` : 29K sentences
