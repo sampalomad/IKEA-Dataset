@@ -14,13 +14,12 @@ The below statistics is calculated with unprocessed data:
 
 ## Statistics:
 
-| Language pair  | Language | Tokens | Number of data Samples | Minimum sample length | Maximum sample length | Average sample length | Standard derivation sample length | Vocabulary size |
-|----------------|----------|--------|------------------------|-----------------------|-----------------------|-----------------------|-----------------------------------|-----------------|
-| English-German | English  | 256204 | 3590                   | 6                     | 343                   | 71.3660167            | 46.3361373                        | 6601            |
-|                | German   | 216873 | 3590                   | 6                     | 324                   | 60.4103064            | 39.1434638                        | 10468           |
-| English-French | English  | 239822 | 3321                   | 6                     | 334                   | 72.213791             | 47.2512623                        | 6442            |
-|                | French   | 275223 | 3321                   | 6                     | 469                   | 82.8735321            | 54.7219488                        | 7575            |
-
+| Language pair  | Language | Tokens | Minimum sample length | Maximum sample length | Average sample length | Standard derivation sample length | Vocabulary size |
+|----------------|----------|--------|-----------------------|-----------------------|-----------------------|-----------------------------------|-----------------|
+| English-German | English  | 256204 | 6                     | 343                   | 71.3660167            | 46.3361373                        | 6601            |
+|                | German   | 216873 | 6                     | 324                   | 60.4103064            | 39.1434638                        | 10468           |
+| English-French | English  | 239822 | 6                     | 334                   | 72.213791             | 47.2512623                        | 6442            |
+|                | French   | 275223 | 6                     | 469                   | 82.8735321            | 54.7219488                        | 7575            |
 
 ## Characteristics:
 - Because all data samples are the description of different products from ikea.com or underamour.com, a data sample might contain more than one sentences. 
