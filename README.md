@@ -2,14 +2,24 @@
 
 CPNMT is a multilingual-multimodal dataset. It contains two language pairs: English-French and English-German. The text data is language-corresponded descriptions of all products crawled from Ikea.com and underamour.com. For each data sample in each language pairs, there is a corresponding product image that is compressed into a feature vector of size 2048. 
 
-## Data Preprocessing
+## Data Preprocessing:
 
 Besides the raw, unprocessed version of all the data samples, there are two other versions of the data. the `IKEA/data.norm.tok.lc` folder contains normalized, tokenized, converted to lowercase (processed exclusively in such order) data. The `IKEA/data.norm.tok.lc.bpe` folder contains normalized, tokenized, converted to lowercase, byte-pair encoding (processed exclusively in such order) data. 
 
-## Example
+## Example:
 The below statistics is calculated with unprocessed data: 
+
 ![sample](./sample.png?raw=true "example")
 
+
+## Statistics:
+
+| Language pair  | Language | Tokens | Number of data Samples | Minimum sample length | Maximum sample length | Average sample length | Standard derivation sample length | Vocabulary size |
+|----------------|----------|--------|------------------------|-----------------------|-----------------------|-----------------------|-----------------------------------|-----------------|
+| English-German | English  | 256204 | 3590                   | 6                     | 343                   | 71.3660167            | 46.3361373                        | 6601            |
+|                | German   | 216873 | 3590                   | 6                     | 324                   | 60.4103064            | 39.1434638                        | 10468           |
+| English-French | English  | 239822 | 3321                   | 6                     | 334                   | 72.213791             | 47.2512623                        | 6442            |
+|                | French   | 275223 | 3321                   | 6                     | 469                   | 82.8735321            | 54.7219488                        | 7575            |
 
 - `train.*` : 29K sentences
 - `val.*` : 1014 sentences
