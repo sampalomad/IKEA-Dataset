@@ -29,7 +29,7 @@ The below statistics is calculated with unprocessed data:
 
 ## Data Format:
 
-# Folder:
+### Folder:
 - `IKEA/`: data crawled and processed from IKEA and UNDERAMOUR.
 - `IKEA/data.en.fr`: English-French data.
 - `IKEA/data.en.de`: English-German data.
@@ -37,7 +37,7 @@ The below statistics is calculated with unprocessed data:
 - `IKEA/data.en.*/data.norm.tok.lc`: normalized, tokenized and lowercase-converted data. 
 - `IKEA/data.en.*/data.norm.tok.lc.bpe`: normalized, tokenized, lowercase-converted, byte-pair-encoded (10000) data.
 
-# Data Files:
+### Data Files:
 - `vocab.*`: language-corresponded vocabulary file extract from `*.norm.tok.lc.10000bpe.*`.
 - `train.*`: 3K samples.
 - `test.*`: 300 samples.
