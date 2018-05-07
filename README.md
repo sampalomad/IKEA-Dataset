@@ -29,7 +29,8 @@ The below statistics is calculated with unprocessed data:
 
 ## Usages:
 It can be used for text-only neural machine translation project and multimodal machine translation project.
-To download the dataset: ```$ git clone https://github.com/sampalomad/CPNMT.git```
+
+To download the dataset, open the directory where you want to copy the data to on terminal, enter: ```$ git clone https://github.com/sampalomad/CPNMT.git```
 
 
 
