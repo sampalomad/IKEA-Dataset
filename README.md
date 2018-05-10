@@ -32,15 +32,17 @@ The below statistics is calculated with unprocessed data:
 - `IKEA/`: data crawled and processed from IKEA and UNDERAMOUR.
 - `IKEA/data.en.fr`: English-French data.
 - `IKEA/data.en.de`: English-German data.
-- `IKEA/data.en.*/data.raw`: unprocessed original data. 
+- `IKEA/data.en.*/data.raw`: unprocessed original data compressed in `.gz`. 
 - `IKEA/data.en.*/data.norm.tok.lc`: normalized, tokenized and lowercase-converted data. 
 - `IKEA/data.en.*/data.norm.tok.lc.bpe`: normalized, tokenized, lowercase-converted, byte-pair-encoded (10000) data.
+- `IKEA/data.en.*/data.image.bpe`: image matrix for `train.*`, `test.*`, `val.*`.
 
 ### Data Files:
 - `train.*`: 3K samples.
 - `test.*`: 300 samples.
 - `val.*`: 300 samples.
 - `vocab.*`: language-corresponded vocabulary file extract from `*.norm.tok.lc.10000bpe.*`.
+- `*_file.code`: language files for byte-pair encoding.
 - `*.norm.tok.lc.10000bpe_ims.npy`: corresponded image matrix for `train.*`, `test.*`, `val.*`, each image is stored in a vector of size 2048. 
 
 
@@ -49,3 +51,6 @@ It can be used for text-only neural machine translation project and multimodal m
 To download the dataset, open the directory where you want to copy the data to on terminal, enter: 
 
 ```$ git clone https://github.com/sampalomad/CPNMT.git```
+
+## Remark:
+- Raw image data in `.jpg` can be released upon request.
