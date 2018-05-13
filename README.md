@@ -41,7 +41,7 @@ The below statistics is calculated with unprocessed data:
 - `IKEA/data.en.*/data.image.bpe`: image matrix for `train.*`, `test.*`, `val.*`.
 
 ### Data Files:
-- `train.*`: 3K samples.
+- `train.*`: 3.2K samples.
 - `test.*`: 300 samples.
 - `val.*`: 300 samples.
 - `vocab.*`: language-corresponded vocabulary file extract from `*.norm.tok.lc.10000bpe.*`.
