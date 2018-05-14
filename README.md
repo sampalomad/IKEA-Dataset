@@ -1,3 +1,6 @@
+# CPNMT mutlilingual-multimodel dataset
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Introduction:
 
 CPNMT is a multilingual-multimodal dataset. It contains two language pairs: English-French and English-German. The text data is language-corresponded descriptions of all products crawled from IKEA and UNDERAMOUR. For each data sample in each language pairs, there is a corresponding product image that is compressed into a feature vector of size 2048. 
@@ -15,10 +18,10 @@ The below statistics is calculated with unprocessed data:
 
 | Language pair  | Language | Tokens | Minimum sample length | Maximum sample length | Average sample length | Standard derivation sample length | Vocabulary size |
 |----------------|----------|--------|-----------------------|-----------------------|-----------------------|-----------------------------------|-----------------|
-| English-German | English  | 256204 | 6                     | 343                   | 71.3660167            | 46.3361373                        | 6601            |
-|                | German   | 216873 | 6                     | 324                   | 60.4103064            | 39.1434638                        | 10468           |
-| English-French | English  | 239822 | 6                     | 334                   | 72.213791             | 47.2512623                        | 6442            |
-|                | French   | 275223 | 6                     | 469                   | 82.8735321            | 54.7219488                        | 7575            |
+| English-German | English  | 256355 | 6                     | 343                   | 71.40807799           | 46.33073895                       | 6601            |
+|                | German   | 216892 | 6                     | 324                   | 60.41559889           | 39.14467817                       | 10468           |
+| English-French | English  | 239966 | 6                     | 334                   | 72.25715146           | 47.24279926                       | 6442            |
+|                | French   | 275251 | 6                     | 469                   | 82.88196326           | 54.72162651                       | 7575            |
 
 ## Characteristics:
 - Because all data samples are the description of different products from IKEA or UNDERAMOUR, a data sample usually contain more than one sentences. 
@@ -38,7 +41,7 @@ The below statistics is calculated with unprocessed data:
 - `IKEA/data.en.*/data.image.bpe`: image matrix for `train.*`, `test.*`, `val.*`.
 
 ### Data Files:
-- `train.*`: 3K samples.
+- `train.*`: 3.2K samples.
 - `test.*`: 300 samples.
 - `val.*`: 300 samples.
 - `vocab.*`: language-corresponded vocabulary file extract from `*.norm.tok.lc.10000bpe.*`.
