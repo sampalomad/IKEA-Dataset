@@ -23,6 +23,10 @@ The below statistics is calculated with unprocessed data:
 | English-French | English  | 239966 | 6                     | 334                   | 72.25715146           | 47.24279926                       | 6442            |
 |                | French   | 275251 | 6                     | 469                   | 82.88196326           | 54.72162651                       | 7575            |
 
+These four histogram show the sentence length distribution for each language in each languague pairs. The length of a sentence is calculate with the number tokens in the sentence.
+
+![sample](./IKEA/stat-charts/en-de.png?raw=true) ![sample](./IKEA/stat-charts/de-de.png?raw=true)
+
 ## Characteristics:
 - Because all data samples are the description of different products from IKEA or UNDERAMOUR, a data sample usually contain more than one sentences. 
 -	A data sample is not a strict description of the corresponding product image. A description might contain information that cannot be showed in image. for example, a description for an Underamour product can contains the sentence “Don’t wash it with hot water”.
