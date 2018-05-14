@@ -26,6 +26,7 @@ The below statistics is calculated with unprocessed data:
 These four histogram show the sentence length distribution for each language in each languague pairs. The length of a sentence is calculate with the number tokens in the sentence.
 
 ![en-de](./IKEA/stat_charts/en-de.png =100x100) ![de-de](./IKEA/stat_charts/de-de.png?=50x50)
+ <img src="./IKEA/stat_charts/en-de.png" width = "100" height = "100" />
 
 ## Characteristics:
 - Because all data samples are the description of different products from IKEA or UNDERAMOUR, a data sample usually contain more than one sentences. 
