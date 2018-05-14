@@ -26,8 +26,8 @@ The below statistics is calculated with unprocessed data:
 
 These four histogram show the sentence length distribution for each language in each languague pairs. The length of a sentence is calculate with the number tokens in the sentence: 
 
-<img src="./IKEA/stat_charts/en-de.png" width = "320" height = "240" align=center /> <img src="./IKEA/stat_charts/de-de.png" width = "320" height = "240" align=center/> 
-<img src="./IKEA/stat_charts/en-fr.png" width = "320" height = "240" align=center /> <img src="./IKEA/stat_charts/fr-fr.png" width = "320" height = "240" align=center />
+<img src="./IKEA/stat_charts/en-de.png" width = "320" height = "240" align=center/> <img src="./IKEA/stat_charts/de-de.png" width = "320" height = "240" align=center/> 
+<img src="./IKEA/stat_charts/en-fr.png" width = "320" height = "240" align=center/> <img src="./IKEA/stat_charts/fr-fr.png" width = "320" height = "240" align=center/>
 
 ## Characteristics:
 - Because all data samples are the description of different products from IKEA or UNDERAMOUR, a data sample usually contain more than one sentences. 
