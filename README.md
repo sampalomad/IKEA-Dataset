@@ -63,5 +63,5 @@ To download the dataset, open the directory where you want to copy the data to o
 
 ```$ git clone https://github.com/sampalomad/CPNMT.git```
 
-## Remark:
+## Note:
 - Raw image data in `.jpg` can be released upon request.
