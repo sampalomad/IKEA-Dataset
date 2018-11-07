@@ -8,7 +8,6 @@ If you use this dataset, you might want to cite this [paper](https://arxiv.org/p
   author    = {Mingyang Zhou and
                Runxiang Cheng and
                Yong Jae Lee and
-               Walid Aransa and
                Zhou Yu},
   title     = {A Visual Attention Grounding Neural Model for Multimodal Machine Translation},
   conference   = {Empirical Methods in Natural Language Processing (EMNLP)},
