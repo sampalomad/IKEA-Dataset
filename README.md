@@ -4,7 +4,7 @@
 ## Citation:
 If you use this dataset, you might want to cite this [paper](https://arxiv.org/pdf/1808.08266.pdf):
 ```
-@article{nmtpy2017,
+@article{IKEA-Dataset,
   author    = {Mingyang Zhou and
                Runxiang Cheng and
                Yong Jae Lee and
