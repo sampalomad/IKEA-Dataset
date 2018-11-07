@@ -1,6 +1,22 @@
 # IKEA Dataset
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Citation:
+If you use this dataset, you might want to cite this [paper](https://arxiv.org/pdf/1808.08266.pdf):
+```
+@article{nmtpy2017,
+  author    = {Mingyang Zhou and
+               Runxiang Cheng and
+               Yong Jae Lee and
+               Walid Aransa and
+               Zhou Yu},
+  title     = {A Visual Attention Grounding Neural Model for Multimodal Machine Translation},
+  conference   = {Empirical Methods in Natural Language Processing (EMNLP)},
+  year = {2018},
+  url       = {https://arxiv.org/pdf/1808.08266.pdf},
+}
+```
+
 ## Introduction:
 
 IKEA dataset is a multilingual-multimodal dataset published along with this paper: [A Visual Attention Grounding Neural Model for Multimodal Machine Translation](https://arxiv.org/pdf/1808.08266.pdf). It contains two language pairs: English-French and English-German. The text data is language-corresponded descriptions of all products crawled from IKEA and UNDERAMOUR. For each data sample in each language pairs, there is a corresponding product image that is compressed into a feature vector of size 2048. 
