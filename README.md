@@ -10,7 +10,6 @@ If you use this dataset, you might want to cite this [paper](https://arxiv.org/p
                    Yong Jae Lee and
                    Zhou Yu},
   title         = {A Visual Attention Grounding Neural Model for Multimodal Machine Translation},
-  conference    = {Empirical Methods in Natural Language Processing (EMNLP)},
   year          = {2018},
   url           = {https://arxiv.org/pdf/1808.08266.pdf},
 }
