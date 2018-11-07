@@ -61,12 +61,13 @@ These four histogram show the sentence length distribution for each language in 
 - `IKEA/data.en.*/data.norm.tok.lc`: normalized, tokenized and lowercase-converted data. 
 - `IKEA/data.en.*/data.norm.tok.lc.bpe`: normalized, tokenized, lowercase-converted, byte-pair-encoded (10000) data.
 - `IKEA/data.en.*/data.image.bpe`: image matrix for `train.*`, `test.*`, `val.*`.
-- `IKEA/image/image.en.*`: compressed images in jpg format for training, validation and training.
+- `IKEA/image/image.en.*`: compressed images in jpg format for training, validation and testing.
 
 ### Data Files:
 - `train.*`: 2600+ samples for FR, 2800+ samples for DE.
 - `test.*`: 330+ samples for FR, 360+ samples for DE.
 - `val.*`: 330+ samples for FR, 360+ samples for DE.
+- `IKEA/image/image.en.*/*.[12].zip`: each store half of the images for training, validation and testing.
 - `vocab.*`: language-corresponded vocabulary file extract from `*.norm.tok.lc.10000bpe.*`.
 - `*_file.code`: language files for byte-pair encoding.
 - `*.norm.tok.lc.10000bpe_ims.npy`: corresponded image matrix for `train.*`, `test.*`, `val.*`, each image is stored in a vector of size 2048. 
