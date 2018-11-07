@@ -61,6 +61,7 @@ These four histogram show the sentence length distribution for each language in 
 - `IKEA/data.en.*/data.norm.tok.lc`: normalized, tokenized and lowercase-converted data. 
 - `IKEA/data.en.*/data.norm.tok.lc.bpe`: normalized, tokenized, lowercase-converted, byte-pair-encoded (10000) data.
 - `IKEA/data.en.*/data.image.bpe`: image matrix for `train.*`, `test.*`, `val.*`.
+- `IKEA/image/image.en.*`: compressed images in jpg format for training, validation and training.
 
 ### Data Files:
 - `train.*`: 2600+ samples for FR, 2800+ samples for DE.
@@ -75,7 +76,5 @@ These four histogram show the sentence length distribution for each language in 
 It can be used for text-only neural machine translation project and multimodal machine translation project.
 To download the dataset, open the directory where you want to copy the data to on terminal, enter: 
 
-```$ git clone https://github.com/sampalomad/CPNMT.git```
+```$ git clone https://github.com/sampalomad/IKEA-Dataset.git```
 
-## Note:
-- Raw image data in `.jpg` can be released upon request.
