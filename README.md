@@ -28,7 +28,7 @@ IKEA-Dataset is a dataset for multilingual-multimodal machine translation. It is
 
 ## Data Preprocessing:
 
-his repository contains the raw, unprocessed data, and two other versions of the data underwent different data-processing steps. the `IKEA/data.en.*/data.norm.tok.lc` folder contains normalized, tokenized, converted to lowercase (processed exclusively in such order) data. The `IKEA/data.en.*/data.norm.tok.lc.bpe` folder contains normalized, tokenized, converted to lowercase, byte-pair encoding (processed exclusively in such order) data. 
+This repository contains the raw, unprocessed data, and two other versions of the data underwent different data-processing steps. the `IKEA/data.en.*/data.norm.tok.lc` folder contains normalized, tokenized, converted to lowercase (processed exclusively in such order) data. The `IKEA/data.en.*/data.norm.tok.lc.bpe` folder contains normalized, tokenized, converted to lowercase, byte-pair encoding (processed exclusively in such order) data. 
 
 ## Example:
 ![sample](./IKEA/sample.png?raw=true "example")
