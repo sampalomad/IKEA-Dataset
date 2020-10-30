@@ -53,9 +53,9 @@ These four histogram show the sentence length distribution for each language in 
 </div>
   
 ## Characteristics:
-- Because all data samples are the description of different products from IKEA or UNDERAMOUR, a data sample usually contain more than one sentences. 
--	A data sample is not a strict description of the corresponding product image. A description might contain information that cannot be showed in image. for example, a description for an Underamour product can contains the sentence “Don’t wash it with hot water”.
--	A data sample in German or French might be less complete with its corresponding English data sample because some part of the descriptions of certain products are not available in non-English regions.
+- Because all data samples are the description of different products from IKEA or Under Armour, a data sample usually contain more than one sentences. 
+- A description might contain information that cannot be showed in image. for example, a description for an Underamour product can contains the sentence “Don’t wash it with hot water”.
+- A product's text description in German or French might be shorter than its corresponding English version.
 
 
 ## Data Format:
