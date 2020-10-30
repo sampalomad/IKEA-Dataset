@@ -24,11 +24,11 @@ If you use this dataset, you might want to cite this [paper](https://www.aclweb.
 
 ## Introduction:
 
-IKEA dataset is a multilingual-multimodal dataset published along with this paper: [A Visual Attention Grounding Neural Model for Multimodal Machine Translation](https://arxiv.org/pdf/1808.08266.pdf). It contains two language pairs: English-French and English-German. The text data is language-corresponded descriptions of all products crawled from IKEA and UNDERAMOUR. For each data sample in each language pairs, there is a corresponding product image that is compressed into a feature vector of size 2048. 
+IKEA-Dataset is a dataset for multilingual-multimodal machine translation. It is published in this paper: [A Visual Attention Grounding Neural Model for Multimodal Machine Translation](https://arxiv.org/pdf/1808.08266.pdf). IKEA-Dataset contains the textual and visual data of each products available in IKEA and Under Armour websites in 2017. The textual data is the description of the products. The visual data is the images of the product. The textual data of a product is usually in pairs: the English version with corresponding the French version; or English version with corresponding German version.
 
 ## Data Preprocessing:
 
-Besides the raw, unprocessed version of all the data samples, there are two other versions of the data. the `IKEA/data.en.*/data.norm.tok.lc` folder contains normalized, tokenized, converted to lowercase (processed exclusively in such order) data. The `IKEA/data.en.*/data.norm.tok.lc.bpe` folder contains normalized, tokenized, converted to lowercase, byte-pair encoding (processed exclusively in such order) data. 
+his repository contains the raw, unprocessed data, and two other versions of the data underwent different data-processing steps. the `IKEA/data.en.*/data.norm.tok.lc` folder contains normalized, tokenized, converted to lowercase (processed exclusively in such order) data. The `IKEA/data.en.*/data.norm.tok.lc.bpe` folder contains normalized, tokenized, converted to lowercase, byte-pair encoding (processed exclusively in such order) data. 
 
 ## Example:
 ![sample](./IKEA/sample.png?raw=true "example")
