@@ -81,7 +81,7 @@ These four histogram show the sentence length distribution for each language in 
 
 
 ## Usages:
-It can be a dataset of both text-only machine translation and multimodal machine translation project.
+It can be a dataset for both text-only machine translation and multimodal machine translation projects.
 To download the dataset, open the directory where you want to copy the data to on terminal, enter: 
 
 ```$ git clone https://github.com/sampalomad/IKEA-Dataset.git```
