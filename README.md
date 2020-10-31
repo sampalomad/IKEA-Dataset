@@ -24,7 +24,7 @@ If you use this dataset, you might want to cite this [paper](https://www.aclweb.
 
 ## Introduction:
 
-IKEA-Dataset is a dataset for multilingual-multimodal machine translation. It is published in this paper: [A Visual Attention Grounding Neural Model for Multimodal Machine Translation](https://arxiv.org/pdf/1808.08266.pdf). IKEA-Dataset contains the textual and visual data of all products available in IKEA and Under Armour websites in 2017. For each product sample, the textual data is the description of the product. The visual data is the images of the product. The descriptions are usually in bilingual pairs: English-French or English-German.
+IKEA-Dataset is a dataset for multilingual-multimodal machine translation. It is published in this paper: [A Visual Attention Grounding Neural Model for Multimodal Machine Translation](https://arxiv.org/pdf/1808.08266.pdf). IKEA-Dataset contains the textual and visual data of all products available in IKEA and Under Armour websites in 2017. For each product sample, the textual data is the description of the product. The visual data is the images of the product. The descriptions are in bilingual pairs: English-French or English-German.
 
 ## Data Preprocessing:
 
