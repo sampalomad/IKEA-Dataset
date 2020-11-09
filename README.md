@@ -24,11 +24,15 @@ If you use this dataset, you might want to cite this [paper](https://www.aclweb.
 
 ## Introduction:
 
-IKEA-Dataset is a dataset for multilingual-multimodal machine translation. It is published in this paper: [A Visual Attention Grounding Neural Model for Multimodal Machine Translation](https://arxiv.org/pdf/1808.08266.pdf). IKEA-Dataset contains the textual and visual data of all products available in IKEA and Under Armour websites in 2017. For each product sample, the textual data is the description of the product. The visual data is the images of the product. The descriptions are in bilingual pairs: English-French or English-German.
+IKEA-Dataset is a dataset for multilingual-multimodal machine translation. It is published in this paper: [A Visual Attention Grounding Neural Model for Multimodal Machine Translation](https://arxiv.org/pdf/1808.08266.pdf). 
+
+IKEA-Dataset contains the textual and visual data of all products available in IKEA and Under Armour websites in 2017. For each product sample, the textual data is the description of the product, while the visual data is the images of the product. The descriptions are in bilingual pairs: English-French or English-German.
+
+Each data sample in IKEA-Dataset is a pair of text descriptions of a product in two different langauges (English-French or English-German), and the images of that product. 
 
 ## Data Preprocessing:
 
-This repository contains the raw, unprocessed data, and two other versions of the data underwent different data-processing steps. the `IKEA/data.en.*/data.norm.tok.lc` folder contains normalized, tokenized, converted to lowercase (processed exclusively in such order) data. The `IKEA/data.en.*/data.norm.tok.lc.bpe` folder contains normalized, tokenized, converted to lowercase, byte-pair encoding (processed exclusively in such order) data. 
+This repository contains the raw data and other two versions that underwent different data-processing steps. the `IKEA/data.en.*/data.norm.tok.lc` folder contains normalized, tokenized, converted to lowercase (processed exclusively in such order) data. The `IKEA/data.en.*/data.norm.tok.lc.bpe` folder contains normalized, tokenized, converted to lowercase, byte-pair encoding (processed exclusively in such order) data. 
 
 ## Example:
 ![sample](./IKEA/sample.png?raw=true "example")
