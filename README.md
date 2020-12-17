@@ -28,11 +28,11 @@ IKEA-Dataset is a dataset for multilingual-multimodal machine translation. It is
 
 IKEA-Dataset contains the textual and visual data of all products available in IKEA and Under Armour websites in 2017. For each product sample, the textual data is the description of the product, while the visual data is the images of the product. The descriptions are in bilingual pairs: English-French or English-German.
 
-Each data sample in IKEA-Dataset is a pair of text descriptions of a product in two different langauges (English-French or English-German), and the images of that product. 
+Each data sample in IKEA-Dataset is a bilingual pair of text descriptions and the images of a product. 
 
 ## Data Preprocessing:
 
-This repository contains the raw data and other two versions that underwent different data-processing steps. the `IKEA/data.en.*/data.norm.tok.lc` folder contains normalized, tokenized, converted to lowercase (processed exclusively in such order) data. The `IKEA/data.en.*/data.norm.tok.lc.bpe` folder contains normalized, tokenized, converted to lowercase, byte-pair encoding (processed exclusively in such order) data. 
+This repository contains the raw data and two other versions that underwent different data-processing steps. the `IKEA/data.en.*/data.norm.tok.lc` folder contains normalized, tokenized, converted to lowercase (processed exclusively in such order) data. The `IKEA/data.en.*/data.norm.tok.lc.bpe` folder contains normalized, tokenized, converted to lowercase, byte-pair encoding (processed exclusively in such order) data. 
 
 ## Example:
 ![sample](./IKEA/sample.png?raw=true "example")
