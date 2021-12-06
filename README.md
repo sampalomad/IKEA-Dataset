@@ -18,7 +18,6 @@ If you use this dataset, you might want to cite this [paper](https://www.aclweb.
     url = "https://www.aclweb.org/anthology/D18-1400",
     doi = "10.18653/v1/D18-1400",
     pages = "3643--3653",
-    abstract = "We introduce a novel multimodal machine translation model that utilizes parallel visual and textual information. Our model jointly optimizes the learning of a shared visual-language embedding and a translator. The model leverages a visual attention grounding mechanism that links the visual semantics with the corresponding textual semantics. Our approach achieves competitive state-of-the-art results on the Multi30K and the Ambiguous COCO datasets. We also collected a new multilingual multimodal product description dataset to simulate a real-world international online shopping scenario. On this dataset, our visual attention grounding model outperforms other methods by a large margin.",
 }
 ```
 
